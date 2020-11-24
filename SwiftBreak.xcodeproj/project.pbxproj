@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F35FD700256D45AA004A8194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FD6FF256D45AA004A8194 /* AppDelegate.swift */; };
+		F35FD71E256D484C004A8194 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FD71D256D484C004A8194 /* main.swift */; };
 		F37D928C256C460F003E18D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D928B256C460F003E18D1 /* MainView.swift */; };
 		F37D928E256C4690003E18D1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D928D256C4690003E18D1 /* App.swift */; };
 		F3ACE013256BB5D4009D6F8A /* LineBreaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACE012256BB5D4009D6F8A /* LineBreaker.swift */; };
@@ -69,6 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F35FD6FF256D45AA004A8194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35FD71D256D484C004A8194 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F37D928B256C460F003E18D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F37D928D256C4690003E18D1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F3ACE012256BB5D4009D6F8A /* LineBreaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineBreaker.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 		F3E58A852566B32B001E31B2 /* SwiftBreak */ = {
 			isa = PBXGroup;
 			children = (
+				F35FD71D256D484C004A8194 /* main.swift */,
+				F35FD6FF256D45AA004A8194 /* AppDelegate.swift */,
 				F37D928D256C4690003E18D1 /* App.swift */,
 				F3B469FA256D306900260402 /* UI */,
 				F3E5D46C256C3820009C57AD /* UserDefaultsConfig.swift */,
@@ -277,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35FD700256D45AA004A8194 /* AppDelegate.swift in Sources */,
+				F35FD71E256D484C004A8194 /* main.swift in Sources */,
 				F37D928C256C460F003E18D1 /* MainView.swift in Sources */,
 				F37D928E256C4690003E18D1 /* App.swift in Sources */,
 				F3B469FE256D30F900260402 /* Bundle+Version.swift in Sources */,
@@ -431,6 +439,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreak/SwiftBreak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreak/Info.plist;
@@ -442,8 +451,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftBreak",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -459,6 +468,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreak/SwiftBreak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreak/Info.plist;
@@ -470,8 +480,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftBreak",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -484,6 +494,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreakExtension/SwiftBreakExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreakExtension/Info.plist;
@@ -492,8 +503,8 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak.SwiftBreakExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -507,6 +518,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreakExtension/SwiftBreakExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreakExtension/Info.plist;
@@ -515,8 +527,8 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak.SwiftBreakExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -5,6 +5,7 @@
 //  Created by Luís Silva on 23/11/2020.
 //
 
+/*
 import SwiftUI
 
 @main
@@ -17,3 +18,5 @@ struct SwiftBreakApp: App {
         .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
+
+*/
