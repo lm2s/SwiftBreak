@@ -19,9 +19,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             styleMask: [.titled, .closable, .miniaturizable, .fullSizeContentView],
             backing: .buffered, defer: false
         )
+
         window.center()
         window.setFrameAutosaveName("SwiftBreak")
         window.contentView = NSHostingView(rootView: mainView)
+        window.isReleasedWhenClosed = true
         window.makeKeyAndOrderFront(nil)
+
+    }
+
+    @objc
+    private func quit(_ sender: Any) {
+        NSApplication.shared.terminate(sender)
     }
 }
