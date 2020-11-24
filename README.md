@@ -1,3 +1,16 @@
+## SwiftBreak is an Xcode Extension that transforms your single line function parameters into multiline.
+
+```
+myFunc(a: Int, b: Int)
+```
+
+```
+myFunc(
+    a: Int,
+    b: Int 
+)
+```
+
 # Installation
 - Download from GitHub Releases
 
@@ -5,7 +18,7 @@
 
 ### 1) Open SwiftBreak to activate
 
-SwiftBreak is a Xcode Extension to split and format function parameters to multiline.
+This is required at least once. You can also set some preferences here.
 
 ### 2) Enable the extension
 
