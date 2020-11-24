@@ -11,9 +11,12 @@
 		F35FD71E256D484C004A8194 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FD71D256D484C004A8194 /* main.swift */; };
 		F37D928C256C460F003E18D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D928B256C460F003E18D1 /* MainView.swift */; };
 		F37D928E256C4690003E18D1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D928D256C4690003E18D1 /* App.swift */; };
+		F39BD056256D4F610001719E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39BD055256D4F610001719E /* MainMenu.xib */; };
 		F3ACE013256BB5D4009D6F8A /* LineBreaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACE012256BB5D4009D6F8A /* LineBreaker.swift */; };
 		F3B469FC256D307800260402 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B469FB256D307800260402 /* MainViewModel.swift */; };
 		F3B469FE256D30F900260402 /* Bundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B469FD256D30F900260402 /* Bundle+Version.swift */; };
+		F3C514B0256D5A6B0007B4EF /* SwiftBreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C514AF256D5A6B0007B4EF /* SwiftBreakTests.swift */; };
+		F3C514B8256D5AF20007B4EF /* LineBreaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACE012256BB5D4009D6F8A /* LineBreaker.swift */; };
 		F3E58A8B2566B32D001E31B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E58A8A2566B32D001E31B2 /* Assets.xcassets */; };
 		F3E58A9E2566B346001E31B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E58A9D2566B346001E31B2 /* Cocoa.framework */; };
 		F3E58AA32566B346001E31B2 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E58AA22566B346001E31B2 /* SourceEditorExtension.swift */; };
@@ -26,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F3C514B2256D5A6B0007B4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E58A7B2566B32B001E31B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E58A822566B32B001E31B2;
+			remoteInfo = SwiftBreak;
+		};
 		F3E58AA82566B346001E31B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3E58A7B2566B32B001E31B2 /* Project object */;
@@ -75,9 +85,13 @@
 		F35FD71D256D484C004A8194 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F37D928B256C460F003E18D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F37D928D256C4690003E18D1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F39BD055256D4F610001719E /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		F3ACE012256BB5D4009D6F8A /* LineBreaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineBreaker.swift; sourceTree = "<group>"; };
 		F3B469FB256D307800260402 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F3B469FD256D30F900260402 /* Bundle+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Version.swift"; sourceTree = "<group>"; };
+		F3C514AD256D5A6B0007B4EF /* SwiftBreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C514AF256D5A6B0007B4EF /* SwiftBreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBreakTests.swift; sourceTree = "<group>"; };
+		F3C514B1256D5A6B0007B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E58A832566B32B001E31B2 /* SwiftBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E58A8A2566B32D001E31B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3E58A8F2566B32D001E31B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +108,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F3C514AA256D5A6B0007B4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3E58A802566B32B001E31B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,11 +143,21 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		F3C514AE256D5A6B0007B4EF /* SwiftBreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C514AF256D5A6B0007B4EF /* SwiftBreakTests.swift */,
+				F3C514B1256D5A6B0007B4EF /* Info.plist */,
+			);
+			path = SwiftBreakTests;
+			sourceTree = "<group>";
+		};
 		F3E58A7A2566B32B001E31B2 = {
 			isa = PBXGroup;
 			children = (
 				F3E58A852566B32B001E31B2 /* SwiftBreak */,
 				F3E58AA12566B346001E31B2 /* SwiftBreakExtension */,
+				F3C514AE256D5A6B0007B4EF /* SwiftBreakTests */,
 				F3E58A9C2566B346001E31B2 /* Frameworks */,
 				F3E58A842566B32B001E31B2 /* Products */,
 			);
@@ -137,6 +168,7 @@
 			children = (
 				F3E58A832566B32B001E31B2 /* SwiftBreak.app */,
 				F3E58A9B2566B346001E31B2 /* Swift Break.appex */,
+				F3C514AD256D5A6B0007B4EF /* SwiftBreakTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +185,7 @@
 				F3E58A8A2566B32D001E31B2 /* Assets.xcassets */,
 				F3E58A8F2566B32D001E31B2 /* Info.plist */,
 				F3E58A902566B32D001E31B2 /* SwiftBreak.entitlements */,
+				F39BD055256D4F610001719E /* MainMenu.xib */,
 			);
 			path = SwiftBreak;
 			sourceTree = "<group>";
@@ -182,6 +215,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F3C514AC256D5A6B0007B4EF /* SwiftBreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C514B6256D5A6B0007B4EF /* Build configuration list for PBXNativeTarget "SwiftBreakTests" */;
+			buildPhases = (
+				F3C514A9256D5A6B0007B4EF /* Sources */,
+				F3C514AA256D5A6B0007B4EF /* Frameworks */,
+				F3C514AB256D5A6B0007B4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C514B3256D5A6B0007B4EF /* PBXTargetDependency */,
+			);
+			name = SwiftBreakTests;
+			productName = SwiftBreakTests;
+			productReference = F3C514AD256D5A6B0007B4EF /* SwiftBreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F3E58A822566B32B001E31B2 /* SwiftBreak */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3E58A932566B32D001E31B2 /* Build configuration list for PBXNativeTarget "SwiftBreak" */;
@@ -231,6 +282,10 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					F3C514AC256D5A6B0007B4EF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F3E58A822566B32B001E31B2;
+					};
 					F3E58A822566B32B001E31B2 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -256,16 +311,25 @@
 			targets = (
 				F3E58A822566B32B001E31B2 /* SwiftBreak */,
 				F3E58A9A2566B346001E31B2 /* Swift Break */,
+				F3C514AC256D5A6B0007B4EF /* SwiftBreakTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F3C514AB256D5A6B0007B4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3E58A812566B32B001E31B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3E58A8B2566B32D001E31B2 /* Assets.xcassets in Resources */,
+				F39BD056256D4F610001719E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +343,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F3C514A9256D5A6B0007B4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C514B0256D5A6B0007B4EF /* SwiftBreakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3E58A7F2566B32B001E31B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C514B8256D5AF20007B4EF /* LineBreaker.swift in Sources */,
 				F35FD700256D45AA004A8194 /* AppDelegate.swift in Sources */,
 				F35FD71E256D484C004A8194 /* main.swift in Sources */,
 				F37D928C256C460F003E18D1 /* MainView.swift in Sources */,
@@ -307,6 +380,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F3C514B3256D5A6B0007B4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E58A822566B32B001E31B2 /* SwiftBreak */;
+			targetProxy = F3C514B2256D5A6B0007B4EF /* PBXContainerItemProxy */;
+		};
 		F3E58AA92566B346001E31B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F3E58A9A2566B346001E31B2 /* Swift Break */;
@@ -315,6 +393,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		F3C514B4256D5A6B0007B4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGA89NJBJF;
+				INFOPLIST_FILE = SwiftBreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBreak.app/Contents/MacOS/SwiftBreak";
+			};
+			name = Debug;
+		};
+		F3C514B5256D5A6B0007B4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGA89NJBJF;
+				INFOPLIST_FILE = SwiftBreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBreak.app/Contents/MacOS/SwiftBreak";
+			};
+			name = Release;
+		};
 		F3E58A912566B32D001E31B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,7 +557,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreak/SwiftBreak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreak/Info.plist;
@@ -452,7 +570,7 @@
 					"$(PROJECT_DIR)/SwiftBreak",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -468,7 +586,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreak/SwiftBreak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreak/Info.plist;
@@ -481,7 +599,7 @@
 					"$(PROJECT_DIR)/SwiftBreak",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -494,7 +612,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreakExtension/SwiftBreakExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreakExtension/Info.plist;
@@ -504,7 +622,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak.SwiftBreakExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -518,7 +636,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBreakExtension/SwiftBreakExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FGA89NJBJF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SwiftBreakExtension/Info.plist;
@@ -528,7 +646,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.hellobit.SwiftBreak.SwiftBreakExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -539,6 +657,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F3C514B6256D5A6B0007B4EF /* Build configuration list for PBXNativeTarget "SwiftBreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C514B4256D5A6B0007B4EF /* Debug */,
+				F3C514B5256D5A6B0007B4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3E58A7E2566B32B001E31B2 /* Build configuration list for PBXProject "SwiftBreak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
